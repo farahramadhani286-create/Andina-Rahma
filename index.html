@@ -1,33 +1,76 @@
 <!DOCTYPE html><html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Risol Mayo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #FFE5CC; /* warna lembut cocok untuk makanan */
+    }
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #FFB074;
+    }
+    .hero img {
+      max-width: 300px;
+      height: auto;
+    }
+    table {
+      width: 100%;
+      border-spacing: 20px;
+    }
+    td {
+      text-align: center;
+      vertical-align: top;
+    }
+    .product-img {
+      width: 200px;
+      height: 200px;
+      background-color: #ddd;
+      display: inline-block;
+    }
+    .wa-link {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+    }
+    .wa-link img {
+      width: 50px;
+      height: 50px;
+    }
+  </style>
 </head>
-<body style="background-color:#FFE5CC; font-family:Arial, sans-serif; margin:0; padding:0;">
-  <table width="100%" cellspacing="0" cellpadding="0" border="0">
-    <!-- Hero Section -->
+<body>
+  <div class="hero">
+    <h1>Risol Mayo Lezat</h1>
+    <img src="https://via.placeholder.com/300x200?text=Hero+Image" alt="Hero Image" />
+    <p>Nikmati risol mayo dengan rasa istimewa dan bahan berkualitas.</p>
+  </div>  <table>
     <tr>
-      <td align="center" style="padding:40px 0;">
-        <img src="https://via.placeholder.com/800x300" alt="Hero Image" style="width:80%; max-width:800px; height:auto;">
+      <td>
+        <div class="product-img">
+          <img src="https://via.placeholder.com/200?text=Risol+1" alt="Risol 1" style="width:100%;height:100%;object-fit:cover;" />
+        </div>
+        <p>Risol Mayo 1</p>
+      </td>
+      <td>
+        <div class="product-img">
+          <img src="https://via.placeholder.com/200?text=Risol+2" alt="Risol 2" style="width:100%;height:100%;object-fit:cover;" />
+        </div>
+        <p>Risol Mayo 2</p>
+      </td>
+      <td>
+        <div class="product-img">
+          <img src="https://via.placeholder.com/200?text=Risol+3" alt="Risol 3" style="width:100%;height:100%;object-fit:cover;" />
+        </div>
+        <p>Risol Mayo 3</p>
       </td>
     </tr>
-    <!-- Product Images -->
-    <tr>
-      <td align="center" style="padding:20px 0;">
-        <img src="https://via.placeholder.com/300" alt="Risol 1" style="margin:10px; width:300px; height:auto;">
-        <img src="https://via.placeholder.com/300" alt="Risol 2" style="margin:10px; width:300px; height:auto;">
-      </td>
-    </tr>
-    <!-- WhatsApp Contact -->
-    <tr>
-      <td align="center" style="padding:40px 0;">
-        <a href="https://wa.me/6281234567890" target="_blank" style="text-decoration:none; color:#000; font-size:18px;">
-          <img src="https://via.placeholder.com/50" alt="WhatsApp Icon" style="vertical-align:middle; margin-right:10px;">
-          Hubungi Kami di WhatsApp
-        </a>
-      </td>
-    </tr>
-  </table>
+  </table>  <a class="wa-link" href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Business" />
+  </a>
 </body>
 </html>
