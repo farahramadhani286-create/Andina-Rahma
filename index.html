@@ -1,71 +1,75 @@
 <!DOCTYPE html><html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Risol Mayo</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    table { width: 100%; border-collapse: collapse; }
-    td { padding: 20px; vertical-align: top; }
-    .header { background-color: #f8f8f8; text-align: center; }
-    .banner img { width: 100%; max-height: 400px; object-fit: cover; }
-    .products img { width: 200px; height: 200px; object-fit: cover; }
-    .footer { background-color: #f1f1f1; text-align: center; }
-    .whatsapp-icon { width: 40px; height: 40px; }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #FFE5D4; /* Warna lembut cocok untuk makanan */
+      margin: 0;
+      padding: 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .header {
+      text-align: center;
+      padding: 20px;
+      background-color: #FF906E;
+      color: white;
+    }
+    .content {
+      padding: 20px;
+    }
+    .product-img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 10px;
+    }
+    .footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #E6704C;
+      color: white;
+    }
+    .whatsapp-icon {
+      width: 40px;
+      height: 40px;
+    }
   </style>
 </head>
 <body>
   <table>
-    <!-- Header -->
-    <tr class="header">
-      <td>
+    <tr>
+      <td class="header">
         <h1>Risol Mayo Lezat</h1>
-        <p>Renyah di luar, lembut di dalam</p>
+        <p>Cemilan renyah isi mayo dan sosis/ayam</p>
       </td>
-    </tr><!-- Banner Image -->
-<tr class="banner">
-  <td>
-    <img src="https://via.placeholder.com/1200x400" alt="Banner Risol Mayo" />
-  </td>
-</tr>
-
-<!-- About Section -->
-<tr>
-  <td>
-    <h2>Tentang Kami</h2>
-    <p>Kami menjual risol mayo homemade dengan rasa autentik dan bahan berkualitas.</p>
-  </td>
-</tr>
-
-<!-- Products Section -->
-<tr class="products">
-  <td>
-    <h2>Produk Kami</h2>
+    </tr><tr>
+  <td class="content">
     <table>
       <tr>
-        <td><img src="https://via.placeholder.com/200" alt="Risol 1" /><p>Risol Mayo Original</p></td>
-        <td><img src="https://via.placeholder.com/200" alt="Risol 2" /><p>Risol Mayo Sosis</p></td>
-        <td><img src="https://via.placeholder.com/200" alt="Risol 3" /><p>Risol Mayo Ayam</p></td>
+        <td style="text-align:center; padding:20px;">
+          <img src="https://via.placeholder.com/300x200" alt="Risol Mayo" class="product-img">
+          <h2>Paket Risol Mayo</h2>
+          <p>Risol mayo gurih dengan isian sosis dan ayam. Cocok untuk semua acara!</p>
+        </td>
       </tr>
     </table>
   </td>
 </tr>
 
-<!-- WhatsApp Contact -->
 <tr>
-  <td style="text-align:center;">
-    <h2>Hubungi Kami</h2>
+  <td class="footer">
+    <p>Pesan sekarang lewat WhatsApp</p>
     <a href="https://wa.me/6281234567890" target="_blank">
-      <img class="whatsapp-icon" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Business" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
     </a>
-    <p>Klik ikon untuk memesan via WhatsApp</p>
-  </td>
-</tr>
-
-<!-- Footer -->
-<tr class="footer">
-  <td>
-    <p>&copy; 2025 Risol Mayo</p>
   </td>
 </tr>
 
