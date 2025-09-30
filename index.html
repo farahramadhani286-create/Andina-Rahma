@@ -1,79 +1,126 @@
-<!DOCTYPE html><html lang="id">
+<!DOCTYPE html>
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Risol Mayo</title>
+  <title>Risol Mayo - Landing Page</title>
   <style>
     body {
-      margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #FFF3E6;
-    }
-    header {
-      text-align: center;
-      padding: 40px 20px;
-      background-color: #FFBC80;
-    }
-    header h1 {
-      margin: 0 0 10px;
+      margin: 0;
+      padding: 0;
     }
     table {
       width: 100%;
-      border-spacing: 20px;
-      margin-top: 20px;
+      border-collapse: collapse;
     }
     td {
+      padding: 20px;
       text-align: center;
+      vertical-align: top;
     }
-    .img-placeholder {
-      width: 200px;
-      height: 200px;
-      background-color: #ddd;
-      display: inline-block;
+    .header {
+      background-color: #f8b65c;
+      color: white;
+      font-size: 28px;
+      font-weight: bold;
     }
-    .wa-link {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
+    .section-title {
+      font-size: 24px;
+      margin-bottom: 10px;
     }
-    .wa-link img {
+    .wa-button img {
       width: 50px;
       height: 50px;
+      cursor: pointer;
+    }
+    .footer {
+      background-color: #333;
+      color: white;
+      font-size: 14px;
+      padding: 10px;
+    }
+    img.dummy {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Jual Risol Mayo</h1>
-    <p>Risol lezat dengan isian mayo spesial</p>
-  </header>  <table>
+
+  <!-- Header -->
+  <table border="0">
+    <tr>
+      <td class="header">Risol Mayo Lezat & Fresh</td>
+    </tr>
+  </table>
+
+  <!-- Hero Section -->
+  <table border="0">
     <tr>
       <td>
-        <div class="img-placeholder">
-          <img src="https://via.placeholder.com/200?text=Risol+1" alt="Risol 1" style="width:100%;height:100%;object-fit:cover;" />
-        </div>
-        <p>Risol Mayo 1</p>
-      </td>
-      <td>
-        <div class="img-placeholder">
-          <img src="https://via.placeholder.com/200?text=Risol+2" alt="Risol 2" style="width:100%;height:100%;object-fit:cover;" />
-        </div>
-        <p>Risol Mayo 2</p>
-      </td>
-      <td>
-        <div class="img-placeholder">
-          <img src="https://via.placeholder.com/200?text=Risol+3" alt="Risol 3" style="width:100%;height:100%;object-fit:cover;" />
-        </div>
-        <p>Risol Mayo 3</p>
+        <img src="https://via.placeholder.com/800x300?text=Gambar+Risol" 
+             alt="Risol Dummy" class="dummy" />
+        <p style="font-size: 18px; margin-top: 10px;">
+          Rasakan kelezatan risol mayo dengan isian spesial!
+        </p>
       </td>
     </tr>
-  </table>  <div style="text-align:center; margin: 40px 0;">
-    <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Business" style="width:50px;height:50px;" />
-      <p>Hubungi Kami via WhatsApp</p>
-    </a>
-  </div>  <a class="wa-link" href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Business" />
-  </a>
+  </table>
+
+  <!-- Produk Section -->
+  <table border="0">
+    <tr>
+      <td>
+        <div class="section-title">Varian Produk</div>
+        <table border="0" style="width: 100%;">
+          <tr>
+            <td>
+              <img src="https://via.placeholder.com/200?text=Risol+1" 
+                   alt="Dummy Risol 1" class="dummy" />
+              <p>Risol Mayo Original</p>
+            </td>
+            <td>
+              <img src="https://via.placeholder.com/200?text=Risol+2" 
+                   alt="Dummy Risol 2" class="dummy" />
+              <p>Risol Mayo Sosis</p>
+            </td>
+            <td>
+              <img src="https://via.placeholder.com/200?text=Risol+3" 
+                   alt="Dummy Risol 3" class="dummy" />
+              <p>Risol Mayo Ayam</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <!-- WhatsApp Contact -->
+  <table border="0">
+    <tr>
+      <td>
+        <div class="section-title">Pesan Sekarang</div>
+        <p>
+          Klik ikon WhatsApp di bawah untuk langsung order via WhatsApp Business.
+        </p>
+        <a href="https://wa.me/6281234567890" target="_blank" class="wa-button">
+          <img src="https://cdn-icons-png.flaticon.com/512/2504/2504890.png" 
+               alt="WhatsApp Icon" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Footer -->
+  <table border="0">
+    <tr>
+      <td class="footer">
+        &copy; 2025 Risol Mayo. All Rights Reserved.
+      </td>
+    </tr>
+  </table>
+
 </body>
 </html>
